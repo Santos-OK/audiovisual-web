@@ -6,7 +6,7 @@ const routerProduct = express.Router();
 
 routerProduct.get('/', (req, res) => {
     console.log("entro a la ruta home")
-  res.send('pistaches')
+  res.send('Achiuuuuuuuu')
 })
 
 routerProduct.post('/', (req, res) => {
