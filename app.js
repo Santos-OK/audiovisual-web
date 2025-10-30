@@ -1,7 +1,7 @@
 import express from "express"
 import dotenv from "dotenv"
 import cors from "cors"
-import routerProduct from "./routes/routerProducts.js"
+import routerProduct from "./routes/routesProducts.js"
 
 dotenv.config()
 
