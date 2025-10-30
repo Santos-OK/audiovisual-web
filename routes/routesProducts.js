@@ -6,6 +6,12 @@ const routerProduct = express.Router();
 
 routerProduct.get('/', (req, res) => {
     console.log("entro a la ruta home")
+
+    //////////////error simulado///////////////
+    res.status(400)
+    throw new Error("Ya valió verga, mi buen")
+    //////////////////////////////////////////
+    
   res.send('Achiuuuuuuuu')
 })
 
